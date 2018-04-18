@@ -172,3 +172,5 @@ def plot(embeddings, labels):
 
 words = [reverese_dictionary[i] for i in range( num_points)]
 plot(two_d_embedding, words)
+
+#Testing changes
