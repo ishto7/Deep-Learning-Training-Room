@@ -17,7 +17,7 @@ def make_farsi_text(x):
     farsi_text = get_display(reshaped_text)
     return farsi_text
 
-filename = 'D:\\Coding\\tutorial\\mrshabanali3.txt'
+filename = 'textCorpus.txt'
 fin2=open(filename,'r',encoding='utf-8').read()
 words=fin2.split()
 print('Data size %d' % len(words))
